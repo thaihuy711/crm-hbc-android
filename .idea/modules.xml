@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CropImageLib/CropImageLib.iml" filepath="$PROJECT_DIR$/CropImageLib/CropImageLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialEditTextMaster/MaterialEditTextMaster.iml" filepath="$PROJECT_DIR$/MaterialEditTextMaster/MaterialEditTextMaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialLayout/MaterialLayout.iml" filepath="$PROJECT_DIR$/MaterialLayout/MaterialLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-hbc-android.iml" filepath="$PROJECT_DIR$/crm-hbc-android.iml" />
+    </modules>
+  </component>
+</project>
