@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frame_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:clickable="true"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="@dimen/card_corner_10"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_back_blue_1"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:text="Tiêu đề"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        app:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.9"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="Lopes ispum zoho"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_14"
+                        app:fontText="fonts/sf_pro_display_light.otf"
+                        />
+
+                </LinearLayout>
+
+                <include layout="@layout/line_layout_active"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:text="Bắt đầu"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        app:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/view_time_start"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.9"
+                        android:orientation="horizontal"
+                        >
+
+                        <bys.crm.hbc.views.CustomFontTextView
+                            android:id="@+id/tvStart"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:paddingRight="15dp"
+                            android:singleLine="true"
+                            android:text="12/06/2018, 08:00 AM"
+                            android:textColor="@color/text_color"
+                            android:textSize="@dimen/text_small_14"
+                            app:fontText="fonts/sf_pro_display_light.otf"
+                            />
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="15dp"
+                            android:clickable="false"
+                            android:src="@drawable/ic_calendar"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/line_layout_active"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:text="Kết thúc"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        app:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/view_time_finish"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.9"
+                        android:orientation="horizontal"
+                        >
+
+                        <bys.crm.hbc.views.CustomFontTextView
+                            android:id="@+id/tvEnd"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:paddingRight="15dp"
+                            android:singleLine="true"
+                            android:text="12/06/2018, 10:00 AM"
+                            android:textColor="@color/text_color"
+                            android:textSize="@dimen/text_small_14"
+                            app:fontText="fonts/sf_pro_display_light.otf"
+                            />
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="15dp"
+                            android:clickable="false"
+                            android:src="@drawable/ic_calendar"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/line_layout_active"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:text="Trạng thái"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        app:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.9"
+                        android:paddingRight="15dp"
+                        >
+
+                        <Spinner
+                            android:id="@+id/spStatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="1dp"
+                            android:background="@android:color/transparent"
+                            android:overlapAnchor="false"
+                            />
+
+                        <bys.crm.hbc.views.CustomImageSquare
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginTop="1dp"
+                            android:clickable="false"
+                            android:padding="2dp"
+                            android:src="@drawable/ic_spinner_down"
+                            />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <include layout="@layout/line_layout_active"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:text="Liên quan cụ thể"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        app:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.9"
+                        android:paddingRight="15dp"
+                        >
+
+                        <Spinner
+                            android:id="@+id/spInvolve"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="1dp"
+                            android:background="@android:color/transparent"
+                            android:overlapAnchor="false"
+                            />
+
+                        <bys.crm.hbc.views.CustomImageSquare
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginTop="1dp"
+                            android:clickable="false"
+                            android:padding="2dp"
+                            android:src="@drawable/ic_spinner_down"
+                            />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <include layout="@layout/line_layout_active"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:text="Mô tả"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        app:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <FrameLayout
+                        android:id="@+id/layout_describe"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.9"
+                        android:paddingRight="15dp"
+                        android:visibility="visible"
+                        >
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="1dp"
+                            android:background="@android:color/transparent"
+                            android:overlapAnchor="false"
+                            />
+
+                        <bys.crm.hbc.views.CustomImageSquare
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginTop="1dp"
+                            android:clickable="false"
+                            android:padding="2dp"
+                            android:layout_weight="1.9"
+                            android:src="@drawable/ic_spinner_down"
+                            />
+                    </FrameLayout>
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tvDescribe"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.9"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="Lopes ispum zoho"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_14"
+                        android:visibility="gone"
+                        app:fontText="fonts/sf_pro_display_light.otf"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_corner_10"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:id="@+id/btnDelete"
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bg_delete_shadow"
+                    >
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/card_corner_10"
+                        android:src="@drawable/ic_x_delete"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/card_corner_10"
+                        android:text="@string/txt_delete"
+                        android:textColor="#fff"
+                        android:textSize="@dimen/text_large_16"
+                        app:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_weight="1"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/btnSave"
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bg_save_shadow"
+                    >
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_icon_profile"
+                        android:layout_height="@dimen/margin_icon_profile"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/card_corner_10"
+                        android:src="@drawable/ic_save"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/card_corner_10"
+                        android:text="@string/txt_save"
+                        android:textColor="#fff"
+                        android:textSize="@dimen/text_large_16"
+                        app:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

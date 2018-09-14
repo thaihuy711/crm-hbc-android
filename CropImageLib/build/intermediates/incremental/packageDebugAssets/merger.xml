@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/huy/crm-hbc-droid/CropImageLib/src/main/assets"/><source path="/home/huy/crm-hbc-droid/CropImageLib/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/huy/crm-hbc-droid/CropImageLib/src/debug/assets"/></dataSet></merger>

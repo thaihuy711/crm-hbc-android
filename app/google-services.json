@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "401787466188",
+    "firebase_url": "https://tuk-tuk-taxi.firebaseio.com",
+    "project_id": "tuk-tuk-taxi",
+    "storage_bucket": "tuk-tuk-taxi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401787466188:android:51797cfdf7264329",
+        "android_client_info": {
+          "package_name": "bys.crm.hbc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401787466188-ko2tspcrghvrtfe9kruqqcqkq3r6g72u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJg5G_GH_xr-ad1UpN2lO542xinm66ZCM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

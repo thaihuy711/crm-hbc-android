@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <!-- Gray shadow. -->
+            <item android:left="2dp" android:top="3dp">
+                <shape>
+                    <solid android:color="#efefef" />
+                    <corners android:radius="@dimen/button_radius" />
+                </shape>
+            </item>
+
+            <!-- White foreground.  -->
+            <item android:bottom="3dp" android:right="1dp">
+                <shape android:shape="rectangle">
+                    <gradient android:angle="0" android:endColor="#25778c" android:startColor="#4fcdea" android:type="linear" />
+                    <corners android:radius="@dimen/button_radius" />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+    <item>
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <!-- Gray shadow. -->
+            <item android:left="2dp" android:top="3dp">
+                <shape>
+                    <solid android:color="#f4f4f4" />
+                    <corners android:radius="@dimen/button_radius" />
+                </shape>
+            </item>
+
+            <!-- White foreground.  -->
+            <item android:bottom="3dp" android:right="1dp">
+                <shape android:shape="rectangle">
+                    <gradient android:angle="0" android:endColor="#2193B0" android:startColor="#6DD5ED" android:type="linear" />
+                    <corners android:radius="@dimen/button_radius" />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+</selector>

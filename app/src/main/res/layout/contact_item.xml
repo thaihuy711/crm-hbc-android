@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    xmlns:round_image="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <bys.crm.hbc.views.RoundedConnerImageView
+        android:id="@+id/imv_avatar"
+        android:layout_width="@dimen/height_avatar_50"
+        android:layout_height="@dimen/height_avatar_50"
+        android:layout_margin="@dimen/padding_content_menu"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_avatar_default"
+        round_image:border_color="#009BCC"
+        round_image:border_width="1dp"
+        round_image:corner_radius="@dimen/height_avatar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="@dimen/padding_content_menu"
+        android:orientation="vertical">
+
+        <bys.crm.hbc.views.CustomFontTextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Andri Nguyễn"
+            android:textColor="#494A57"
+            android:layout_marginRight="10dp"
+            android:textSize="@dimen/text_large_17" />
+
+        <bys.crm.hbc.views.CustomFontTextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="andri@gmail.com"
+            android:textColor="#A0A0A0"
+            android:textSize="@dimen/text_small_12"
+            android:layout_marginRight="10dp"
+            font:fontText="fonts/sf_pro_display_regular.otf" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_top_btn_login"
+            android:background="#D8D8D8" />
+    </LinearLayout>
+
+</LinearLayout>

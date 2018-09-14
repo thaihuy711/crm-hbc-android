@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/frame_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcWork"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/btnAddWork"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="18dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_button_add">
+        <bys.crm.hbc.views.CustomFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="27sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-3dp"
+            android:layout_marginLeft="20dp"
+            android:text="+"/>
+    </LinearLayout>
+
+</FrameLayout>

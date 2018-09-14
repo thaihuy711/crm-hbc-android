@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frame_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/btnAddCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/padding_content_menu"
+        android:layout_marginRight="@dimen/padding_content_menu"
+        fab:fab_colorRipple="#99FFFFFF"
+        fab:menu_colorNormal="#48b3ff"
+        fab:menu_colorPressed="#48b3ff"
+        fab:menu_labels_colorNormal="#333333"
+        fab:menu_labels_colorPressed="#444444"
+        fab:menu_labels_colorRipple="#66FFFFFF"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showShadow="false"
+        fab:menu_labels_singleLine="true"
+        fab:menu_openDirection="up"
+        fab:menu_shadowRadius="0dp"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/btnNewDirectoryCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_new_contact"
+            fab:fab_colorNormal="@android:color/white"
+            fab:fab_colorPressed="@android:color/white"
+            fab:fab_label="Tạo từ danh bạ"
+            fab:fab_size="mini"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/btnScanCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_scan"
+            fab:fab_colorNormal="@android:color/white"
+            fab:fab_colorPressed="@android:color/white"
+            fab:fab_label="Quét mã"
+            fab:fab_size="mini"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/btnNewContactCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_company"
+            fab:fab_colorNormal="@android:color/white"
+            fab:fab_colorPressed="@android:color/white"
+            fab:fab_label="Tạo mới công ty"
+            fab:fab_size="mini"
+            />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</FrameLayout>

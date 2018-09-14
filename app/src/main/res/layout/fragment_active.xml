@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <bys.crm.hbc.views.CustomFontButton
+            android:id="@+id/btn_tab_note"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height_tab"
+            android:layout_weight="1"
+            android:background="@drawable/bg_tab"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/txt_note"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            font:fontText="fonts/sf_pro_display_regular.otf" />
+
+        <bys.crm.hbc.views.CustomFontButton
+            android:id="@+id/btn_tab_event"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height_tab"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_tab"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/txt_event"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            font:fontText="fonts/sf_pro_display_regular.otf" />
+
+        <bys.crm.hbc.views.CustomFontButton
+            android:id="@+id/btn_tab_work"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height_tab"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_tab"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/txt_work"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            font:fontText="fonts/sf_pro_display_regular.otf" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

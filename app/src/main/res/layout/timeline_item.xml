@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <bys.crm.hbc.views.CustomFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="12/06"
+            android:textSize="@dimen/text_large_17"
+            android:visibility="visible"
+            font:fontText="fonts/sf_pro_display_semibold.otf"
+            />
+
+        <bys.crm.hbc.views.CustomFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="08:00 am"
+            android:textColor="#A0A0A0"
+            android:textSize="@dimen/text_small_14"
+            android:visibility="visible"
+            font:fontText="fonts/sf_pro_display_regular.otf"
+            />
+
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        >
+
+        <View
+            android:id="@+id/first"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/hint_color"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_bubble"
+            font:layout_anchor="@id/first"
+            font:layout_anchorGravity="center"
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3.5"
+        >
+
+        <bys.crm.hbc.views.CustomFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/card_corner_10"
+            android:paddingRight="@dimen/card_corner_10"
+            android:text="Sự kiện meeting room đã được tạo thành công"
+            android:textColor="#A0A0A0"
+            android:textSize="@dimen/text_large_17"
+            font:fontText="fonts/sf_pro_display_regular.otf"
+            />
+
+    </LinearLayout>
+</LinearLayout>

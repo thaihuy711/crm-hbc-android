@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/card_corner_10"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="@dimen/card_corner_10"
+    android:orientation="vertical"
+    font:cardBackgroundColor="@android:color/white"
+    font:cardCornerRadius="@dimen/card_corner_10"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="@string/txt_nickname"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:id="@+id/tv_nickname"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:maxLength="149"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="Mr."
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_light.otf"
+                    />
+            </LinearLayout>
+
+            <include layout="@layout/line_layout"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="@string/txt_name"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:id="@+id/tv_customer_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:maxLength="149"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="Oliver"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_light.otf"
+                    />
+            </LinearLayout>
+
+            <include layout="@layout/line_layout"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="@string/txt_first_name"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:id="@+id/tv_first_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:maxLength="149"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="Oliver"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_light.otf"
+                    />
+            </LinearLayout>
+
+            <include layout="@layout/line_layout"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="@string/txt_email"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/width_status_sm"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="Oliver@gmail.com"
+                        android:textColor="@color/text_color_bule_status"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_gravity="center"
+                        android:layerType="software"
+                        android:src="@drawable/dotted"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/line_layout"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="@string/txt_phone_number"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/width_status_sm"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_phone_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="0905665123"
+                        android:textColor="@color/text_color_bule_status"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_gravity="center"
+                        android:layerType="software"
+                        android:src="@drawable/dotted"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/line_layout"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="@string/txt_birthday"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:id="@+id/tv_birthday"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:maxLength="149"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="14/04/1997"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_light.otf"
+                    />
+            </LinearLayout>
+
+            <include layout="@layout/line_layout"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="@string/txt_pos"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:id="@+id/tv_pos"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:maxLength="149"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="Giám đốc"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_light.otf"
+                    />
+            </LinearLayout>
+
+            <include layout="@layout/line_layout"/>
+
+            <LinearLayout
+                android:id="@+id/layout_department_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_department_room"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_department_room"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="Marketing"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="@string/txt_assign"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:id="@+id/tv_assign"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:maxLength="149"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="Jesssica"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_light.otf"
+                    />
+            </LinearLayout>
+
+            <include layout="@layout/line_layout"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="@string/txt_potential"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:id="@+id/tv_potential"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:maxLength="149"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="Đối tác"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_light.otf"
+                    />
+            </LinearLayout>
+
+            <include layout="@layout/line_layout"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="@string/txt_customer"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/width_status_sm"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_customer"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="Công ty TNHH Mộc Châu"
+                        android:textColor="@color/text_color_bule_status"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_gravity="center"
+                        android:layerType="software"
+                        android:src="@drawable/dotted"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/line_layout"/>
+
+            <LinearLayout
+                android:id="@+id/group_assigner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <LinearLayout
+                    android:id="@+id/layoutAssistant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_assistant"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_assistant"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="Sarah"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_assistant_phone"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:orientation="vertical"
+                        android:paddingTop="@dimen/width_status_sm"
+                        >
+
+                        <bys.crm.hbc.views.CustomFontTextView
+                            android:id="@+id/tv_assistant_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:maxLength="149"
+                            android:paddingRight="15dp"
+                            android:singleLine="true"
+                            android:text="01208085757"
+                            android:textColor="@color/text_color_bule_status"
+                            android:textSize="@dimen/text_small_13"
+                            font:fontText="fonts/sf_pro_display_light.otf"
+                            />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            android:layout_gravity="center"
+                            android:layerType="software"
+                            android:src="@drawable/dotted"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_academic_rank"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_academic_rank"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="Thạc sĩ"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_rela"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_relationship"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="Đối tác"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_acc_face"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:orientation="vertical"
+                        android:paddingTop="@dimen/width_status_sm"
+                        >
+
+                        <bys.crm.hbc.views.CustomFontTextView
+                            android:id="@+id/tv_acc_face"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:maxLength="149"
+                            android:paddingRight="15dp"
+                            android:singleLine="true"
+                            android:text="fb.com/abcxyz"
+                            android:textColor="@color/text_color_bule_status"
+                            android:textSize="@dimen/text_small_13"
+                            font:fontText="fonts/sf_pro_display_light.otf"
+                            />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            android:layout_gravity="center"
+                            android:layerType="software"
+                            android:src="@drawable/dotted"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_share_holder"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.3"
+                        >
+                        <LinearLayout
+                            android:id="@+id/img_share_holder"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="@dimen/width_status_sm"
+                            android:background="@drawable/bg_status_confirm"
+                            android:orientation="vertical"
+                            android:visibility="visible"
+                            >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginLeft="@dimen/edittext_margin"
+                                android:layout_marginTop="@dimen/edittext_margin"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_confirm"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_important"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_important"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="A"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_receive_periodicals"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.3"
+                        >
+                        <LinearLayout
+                            android:id="@+id/img_receive"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="@dimen/width_status_sm"
+                            android:background="@drawable/bg_status_confirm"
+                            android:orientation="vertical"
+                            android:visibility="visible"
+                            >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginLeft="@dimen/edittext_margin"
+                                android:layout_marginTop="@dimen/edittext_margin"
+                                android:padding="2dp"
+                                android:src="@drawable/ic_confirm"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_address_2"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_address"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="45 Lê Duẩn"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_county"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_county"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="Hải Châu"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="@string/txt_city"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:id="@+id/tv_city"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:maxLength="149"
+                    android:paddingRight="15dp"
+                    android:singleLine="true"
+                    android:text="Đà Nẵng"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_light.otf"
+                    />
+            </LinearLayout>
+
+            <include layout="@layout/line_layout"/>
+
+            <LinearLayout
+                android:id="@+id/layout_below_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_nation"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_nation"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="VN"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+                </LinearLayout>
+
+                <include layout="@layout/line_layout"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="visible"
+                    >
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="@string/txt_detail_describe"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_regular.otf"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/tv_detail_describe"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.3"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLength="149"
+                        android:paddingRight="15dp"
+                        android:singleLine="true"
+                        android:text="Hải Châu"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_13"
+                        font:fontText="fonts/sf_pro_display_light.otf"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/height_avatar_110"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/width_status_sm"
+                android:background="@drawable/ic_expand"
+                android:visibility="gone"
+                />
+            <LinearLayout
+                android:id="@+id/btnExpand"
+                android:layout_gravity="bottom|right"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:visibility="visible"
+                android:background="@drawable/bg_save_shadow"
+                >
+
+                <ImageView
+                    android:layout_width="@dimen/height_icon_profile"
+                    android:layout_height="@dimen/height_icon_profile"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/card_corner_10"
+                    android:src="@drawable/ic_expand"
+                    />
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/txt_expand"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_large_16"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btnCollapse"
+                android:layout_gravity="bottom|right"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:background="@drawable/bg_save_shadow"
+                >
+
+                <ImageView
+                    android:layout_width="@dimen/height_icon_profile"
+                    android:layout_height="@dimen/height_icon_profile"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/card_corner_10"
+                    android:src="@drawable/ic_collapse"
+                    />
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/txt_collapse"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_large_16"
+                    font:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.v7.widget.CardView>

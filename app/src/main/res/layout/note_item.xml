@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <bys.crm.hbc.views.CustomFontTextView
+                    android:id="@+id/note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="Make plan for project B ASAP"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_large_17"
+                    app:fontText="fonts/sf_pro_display_regular.otf"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/ic_page"
+                        />
+
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/transparent"
+                        android:text="05/09/2018"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_12"
+                        app:fontText="fonts/sf_pro_display_light.otf"
+                        />
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/transparent"
+                        android:text=","
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_12"
+                        app:fontText="fonts/sf_pro_display_light.otf"
+                        />
+                    <bys.crm.hbc.views.CustomFontTextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/transparent"
+                        android:text="08:00 am"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/text_small_12"
+                        app:fontText="fonts/sf_pro_display_light.otf"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_btn_delete"
+        />
+
+</FrameLayout>

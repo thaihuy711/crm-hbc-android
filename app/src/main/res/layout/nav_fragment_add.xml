@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </android.support.v7.widget.RecyclerView>
+    <!--<LinearLayout-->
+        <!--android:layout_width="@dimen/height_avatar_50"-->
+        <!--android:layout_height="@dimen/height_avatar_50"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_marginBottom="@dimen/padding_content_menu"-->
+        <!--android:layout_marginRight="@dimen/padding_content_menu"-->
+        <!--android:background="@drawable/bg_button_shadow"-->
+        <!--android:visibility="gone"-->
+        <!--&gt;-->
+        <!--<bys.crm.hbc.views.CustomFontTextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="@dimen/height_icon_filter"-->
+            <!--android:layout_marginTop="-3dp"-->
+            <!--android:text="+"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="@dimen/text_size_30"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/btnAddPersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/padding_content_menu"
+        android:layout_marginRight="@dimen/padding_content_menu"
+        fab:fab_colorRipple="#99FFFFFF"
+        fab:menu_shadowRadius="0dp"
+        fab:menu_colorNormal="#48b3ff"
+        fab:menu_colorPressed="#48b3ff"
+        fab:menu_labels_colorNormal="#333333"
+        fab:menu_labels_colorPressed="#444444"
+        fab:menu_labels_colorRipple="#66FFFFFF"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showShadow="false"
+        fab:menu_labels_singleLine="true"
+        fab:menu_openDirection="up"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/btnNewDirectoryPersonal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_new_contact"
+            fab:fab_colorNormal="@android:color/white"
+            fab:fab_colorPressed="@android:color/white"
+            fab:fab_label="Tạo từ danh bạ"
+            android:scaleType="center"
+            fab:fab_size="mini"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/btnScanPersonal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_scan"
+            fab:fab_colorNormal="@android:color/white"
+            fab:fab_colorPressed="@android:color/white"
+            fab:fab_label="Quét mã"
+            fab:fab_size="mini"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/btnNewContactPersonal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_create_user"
+            fab:fab_colorNormal="@android:color/white"
+            fab:fab_colorPressed="@android:color/white"
+            fab:fab_label="Tạo mới liên hệ"
+            fab:fab_size="mini"
+            />
+
+    </com.github.clans.fab.FloatingActionMenu>
+</FrameLayout>
